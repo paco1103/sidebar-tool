@@ -4,6 +4,10 @@ The bar will hide and show automatically by mouseover
 Only support Windows  
 Max num of shortcut is 5  
 
+## How to use  
+Execute the Main Program/sidebar.exe, the program will run in background  
+Auto execute while window start - Windows + R -> "shell:startup", copy the shortcut of the sidebar.exe  
+
 ## Function:
 Drag and Drop to box - create a shortcut  
 Left-click - Open Shortcut  
