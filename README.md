@@ -2,6 +2,7 @@
 The sidebar for more easy to open the file like in the desktop  
 The bar will hide and show automatically by mouseover  
 Only support Windows  
+Max num of shortcut is 5  
 
 ## Function:
 Drag and Drop to box - create a shortcut  
@@ -14,3 +15,6 @@ height - window height
 x - the x position of window  
 y - the y position of window  
 > e.g. x=1920, y=1080, the window will set in right center in monitor
+
+## shortcut (folder)  
+the folder for store the short cut
