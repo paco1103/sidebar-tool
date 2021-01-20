@@ -1,3 +1,6 @@
+###### TODO  
+adding the icon for button, allow dnd muitle shortcut, button font size  
+
 # Sidebar
 The sidebar for more easy to open the file like in the desktop  
 The bar will hide and show automatically by mouseover  
