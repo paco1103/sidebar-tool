@@ -18,7 +18,7 @@ class DropFile(wx.FileDropTarget):
     def OnDropFiles(self, x, y, filenames):
         shell = Dispatch('WScript.Shell')
         for target in filenames:
-            # splitext = remove extension, basenmae = get file name without path
+            # splitext = remove extension, basename = get file name without path
             saving_path = os.path.join(
                 './shortcut', os.path.splitext(os.path.basename(target))[0]+'.lnk')
             shortcut = shell.CreateShortCut(saving_path)
@@ -165,6 +165,7 @@ class SideBar(wx.App):
     def window_hide_show(self, tk, start_pos_x, end_pos_x, start_pos_y, end_pos_y):
         position = tk.winfo_pointerxy()  # (x, y)
         if position[0] > start_pos_x and position[0] < end_pos_x and position[1] > start_pos_y and position[1] < end_pos_y:
+            self.frame.SetWindowStyle(wx.STAY_ON_TOP)
             self.frame.Show()
         else:
             self.frame.Hide()
