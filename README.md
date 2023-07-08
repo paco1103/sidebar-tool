@@ -1,5 +1,4 @@
-###### TODO  
-adding the icon for button, allow dnd muitle shortcut, button font size  
+![Recording 2023-07-08 at 11 56 25](https://github.com/paco1103/sidebar-tool/assets/57214221/4a09e121-ecd9-4450-9c62-56cb733b5416)
 
 # Sidebar
 The sidebar for more easy to open the file like in the desktop  
@@ -25,3 +24,7 @@ y - the y position of window
 
 ## shortcut (folder)  
 the folder for store the short cut
+
+
+###### TODO  
+adding the icon for button, allow dnd muitle shortcut, button font size  
